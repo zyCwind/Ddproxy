@@ -13,4 +13,4 @@ Windows DDK 7.1 Samples/network/trans/ddproxy
 卸载驱动命令
 RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultUninstall 132 path-to-uninstall-dir\infname.inf
 
-使用 cdb 进行调试时需要配置环境变量 _NT_SYMBOL_PATH=C:\Symbols*http://msdl.microsoft.com/download/symbols
+使用 cdb 进行调试时需要配置环境变量 _NT_SYMBOL_PATH=srv*C:\Symbols*http://msdl.microsoft.com/download/symbols
