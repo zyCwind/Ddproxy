@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1483682179 source:c:\users\czy\desktop\ddproxy\dd_drv.c
+1483705407 source:c:\users\czy\desktop\ddproxy\dd_drv.c
 	<ntddk.h>
 	<fwpsk.h>
 	<fwpmk.h>
@@ -9,11 +9,80 @@
 	"DD_proxy.h"
 	<guiddef.h>
 
-1265630916 c:\users\czy\desktop\ddproxy\dd_proxy.h
+1483705407 c:\users\czy\desktop\ddproxy\dd_proxy.h
 
-1483681282 source:c:\users\czy\desktop\ddproxy\dd_proxy.c
+1483705407 source:c:\users\czy\desktop\ddproxy\dd_proxy.c
 	"ntddk.h"
 	"fwpsk.h"
 	"fwpmk.h"
 	"DD_proxy.h"
+
+1265627940 c:\winddk\7600.16385.1\inc\ddk\ntddk.h
+	<wdm.h>
+	<excpt.h>
+	<ntdef.h>
+	<ntstatus.h>
+	<bugcodes.h>
+	<ntiologc.h>
+	<mce.h>
+	"pshpack4.h"
+	"poppack.h"
+	<guiddef.h>
+	<pshpack1.h>
+	<poppack.h>
+	<pshpack1.h>
+	<poppack.h>
+	<pshpack1.h>
+	<poppack.h>
+
+1265627942 c:\winddk\7600.16385.1\inc\ddk\wdm.h
+	<excpt.h>
+	<ntdef.h>
+	<ntstatus.h>
+	<bugcodes.h>
+	<ntiologc.h>
+	<mce.h>
+	<pshpack4.h>
+	<poppack.h>
+	<guiddef.h>
+	"pshpack4.h"
+	"poppack.h"
+	"pshpack1.h"
+	"poppack.h"
+	<string.h>
+	<string.h>
+	<guiddef.h>
+	<dpfilter.h>
+	<ktmtypes.h>
+	<DsfHrmPorts.h>
+	"ia64reg.h"
+	"pshpack4.h"
+	"poppack.h"
+	<evntrace.h>
+	<stdarg.h>
+	<evntprov.h>
+	<devpropdef.h>
+	<clfslsn.h>
+
+1265627936 c:\winddk\7600.16385.1\inc\crt\excpt.h
+	<crtdefs.h>
+
+1265627936 c:\winddk\7600.16385.1\inc\crt\crtdefs.h
+	<specstrings.h>
+
+1265627942 c:\winddk\7600.16385.1\inc\ddk\mce.h
+
+1265627938 c:\winddk\7600.16385.1\inc\crt\string.h
+	<crtdefs.h>
+
+1265627938 c:\winddk\7600.16385.1\inc\ddk\dsfhrmports.h
+
+1265627938 c:\winddk\7600.16385.1\inc\crt\stdarg.h
+	<crtdefs.h>
+	<vadefs.h>
+
+1265627938 c:\winddk\7600.16385.1\inc\crt\vadefs.h
+	<crtdefs.h>
+
+1265627942 c:\winddk\7600.16385.1\inc\ddk\clfslsn.h
 
