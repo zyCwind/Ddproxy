@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ddproxy" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc10" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ddproxy" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="5" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/Zi" />
+					<Add option="/GS-" />
+					<Add option="/D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="/debug" />
+					<Add option="/DEBUG" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ddproxy" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="5" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/Ox" />
+					<Add option="/DNDEBUG" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="/Gz" />
+			<Add option="/W3" />
+			<Add option="/DBINARY_COMPATIBLE=0" />
+			<Add option="/DNT" />
+			<Add option="/DUNICODE" />
+			<Add option="/D_UNICODE" />
+			<Add option="/DNDIS60" />
+			<Add option="/DNDIS_SUPPORT_NDIS6" />
+			<Add option="/D_X86_" />
+		</Compiler>
+		<Linker>
+			<Add option="/entry:DriverEntry" />
+			<Add library="ntoskrnl.lib" />
+			<Add library="ndis.lib" />
+			<Add library="fwpkclnt.lib" />
+			<Add library="uuid.lib" />
+			<Add library="hal.lib" />
+		</Linker>
+		<Unit filename="DD_drv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DD_proxy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

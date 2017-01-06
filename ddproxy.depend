@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1483682179 source:c:\users\czy\desktop\ddproxy\dd_drv.c
+	<ntddk.h>
+	<fwpsk.h>
+	<fwpmk.h>
+	<ws2ipdef.h>
+	<in6addr.h>
+	<ip2string.h>
+	"DD_proxy.h"
+	<guiddef.h>
+
+1265630916 c:\users\czy\desktop\ddproxy\dd_proxy.h
+
+1483681282 source:c:\users\czy\desktop\ddproxy\dd_proxy.c
+	"ntddk.h"
+	"fwpsk.h"
+	"fwpmk.h"
+	"DD_proxy.h"
+
