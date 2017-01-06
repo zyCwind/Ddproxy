@@ -14,3 +14,5 @@ Windows DDK 7.1 Samples/network/trans/ddproxy
 RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultUninstall 132 path-to-uninstall-dir\infname.inf
 
 使用 cdb 进行调试时需要配置环境变量 _NT_SYMBOL_PATH=srv*C:\Symbols*http://msdl.microsoft.com/download/symbols
+
+CodeBlocks 16.0.1 x86 可正常编译 amd64 程序但 Debugger(amd64) 不能正常使用

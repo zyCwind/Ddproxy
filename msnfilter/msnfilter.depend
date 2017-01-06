@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1271681244 source:c:\users\czy\desktop\msnfilter\msnfilter.cpp
+	"windows.h"
+	"winioctl.h"
+	"strsafe.h"
+	"fwpmu.h"
+	<conio.h>
+	<stdio.h>
+
+1271681244 source:c:\users\czy\desktop\ddproxy\msnfilter\msnfilter.cpp
+	"windows.h"
+	"winioctl.h"
+	"strsafe.h"
+	"fwpmu.h"
+	<conio.h>
+	<stdio.h>
+

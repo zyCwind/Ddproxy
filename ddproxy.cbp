@@ -42,19 +42,17 @@
 			<Add option="/D_UNICODE" />
 			<Add option="/DNDIS60" />
 			<Add option="/DNDIS_SUPPORT_NDIS6" />
-			<Add option="/D_AMD64_" />
+			<Add option="/D_X86_" />
 			<Add directory="C:/WinDDK/7600.16385.1/inc/ddk" />
-			<Add directory="C:/WinDDK/7600.16385.1/inc/crt" />
 		</Compiler>
 		<Linker>
 			<Add option="/entry:DriverEntry" />
-			<Add option="/NODEFAULTLIB:LIBCMT.lib" />
 			<Add library="ntoskrnl.lib" />
 			<Add library="ndis.lib" />
 			<Add library="fwpkclnt.lib" />
 			<Add library="uuid.lib" />
 			<Add library="hal.lib" />
-			<Add directory="C:/WinDDK/7600.16385.1/lib/win7/amd64" />
+			<Add directory="C:/WinDDK/7600.16385.1/lib/win7/i386" />
 		</Linker>
 		<Unit filename="DD_drv.c">
 			<Option compilerVar="CC" />
